@@ -36,6 +36,14 @@ git branch
 
 - Esse comando lista todas as branchs criadas no repositório. A selecionada vai estar **destacada**. Caso esteja utilizando o Vscode, também é possível visualizar a branch selecionada no canto esquerdo da barra inferior.
 
+- Execute o seguinte comando para conseguir fazer `pull` a partir da branch main:
+
+``` git
+git branch --set-upstream-to=origin/main NOME_BRANCH
+```
+
+- Em "NOME_BRANCH" substitua pelo nome da sua branch;
+
 ## Alternar entre branchs
 
 - Para alternar entre branchs e selecionar uma diferente, utilize o comando:
