@@ -1,5 +1,12 @@
 .regbutton{
     color: white;
+    text-decoration: none;
+    
+
+}
+
+a:hover {
+    color: white;
 }
 
 .form-group{
@@ -37,3 +44,5 @@
     margin-bottom: 20px;
 
 }
+
+
