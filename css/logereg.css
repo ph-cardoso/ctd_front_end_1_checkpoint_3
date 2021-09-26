@@ -4,17 +4,36 @@
 
 .form-group{
     margin-top: 20px;
-
+    margin-right: 400px;
+    margin-left: 400px;
 }
 
-.col-md-6{
-    margin-top: 20px ;
-    margin-bottom: 20px;
-}
 
 #inputPassword5{
     margin-bottom: 20px;
 }
 
+.loginbox{
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
 
+}
 
+.senharegistro{
+
+    margin-top: 20px ;
+
+}
+
+.inputendereco{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+.btn {
+
+    margin-top: 20px ;
+    margin-bottom: 20px;
+
+}
