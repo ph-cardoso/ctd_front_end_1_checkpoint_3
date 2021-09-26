@@ -1,1 +1,40 @@
 
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.row{
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1{
+padding-top: 50px;
+padding-bottom: 50px;
+color: var
+
+}
+
+h2{
+    padding-bottom: 50px;
+}
+
+
+h4{
+    text-align: justify;
+}
+
+p{
+    padding-top:  20px;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
