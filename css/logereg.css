@@ -13,7 +13,13 @@ a:hover {
     margin-top: 20px;
     margin-right: 400px;
     margin-left: 400px;
+    
+    
 }
+
+
+
+
 
 
 #inputPassword5{
@@ -24,6 +30,7 @@ a:hover {
     margin-top: 20px;
     margin-right: 400px;
     margin-left: 400px;
+    
 
 }
 
@@ -49,3 +56,19 @@ a:hover {
 .custom-radio{
     margin-bottom: 10PX;
 }
+
+
+.loginbox{
+
+    margin-top: 150px;
+}
+
+.boxregistro{
+    margin-top: 150px;
+}
+
+.senhalogin{
+    margin-top: 20px;
+}
+
+

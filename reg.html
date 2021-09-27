@@ -25,6 +25,8 @@
         <title>SeriesFlix</title>
     </head>
     <body>
+      <main class="mainreg">
+
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
             <div class="container">
@@ -71,8 +73,9 @@
         <!-- Place your code HERE... -->
 
         
+        <div class="boxregistro">
 
-          <form>
+          <form  class="boxregistro">
             <div class="form-group">
               <label for="formGroupExampleInput">Insira seu nome</label>
               <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome">
@@ -101,6 +104,9 @@
               </small>
               <input type="password" id="inputPassword5" class="form-control" placeholder="Senha" aria-describedby="passwordHelpBlock">
               
+              <label class="senharegistro1"  for="inputPassword5">Repita sua senha </label>
+               <br>
+              <input type="password" id="inputPassword5" class="form-control" placeholder="Repita sua senha " aria-describedby="passwordHelpBlock">
 
             </div>
 
@@ -185,7 +191,7 @@
 
               <div class="inputendereco">
                 <label for="inputCEP">CEP</label>
-                <input type="text" class="form-control" id="inputCEP">
+                <input type="text" class="form-control" placeholder="Insira seu CEP"  id="inputCEP">
               </div>
 
 
@@ -205,6 +211,7 @@
             
 
             <button type="submit"   class="btn btn-primary"> <a class="regbutton" href="login.html">Confirmar Registro</a>   </button>
+          
           </form>
           
 
@@ -220,9 +227,10 @@
 
 
 
+        </div>
 
 
-        <div style="height: 1800px"></div>
+       <div style="height: 300px"></div>
 
         <!-- Footer -->
         <footer class="footer py-4 bg-dark text-white-50">
@@ -237,5 +245,9 @@
             integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
             crossorigin="anonymous"
         ></script>
+
+      </main>
+
     </body>
+
 </html>
