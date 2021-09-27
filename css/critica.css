@@ -7,21 +7,22 @@
       
 }
 
+.jumbotron img{
+    width: 100%;
+} 
+
 .row{
 
-    padding: 30px, 30px, 30px, 30px;
-    background-color: rgba(0, 0, 0, 0.137);
-    margin-left: 50px;
-    margin-right: 50px;
+ 
+    background-color: rgb(85, 78, 78);
     
-       
     
 }
 
 h1{
 padding-top: 50px;
 padding-bottom: 50px;
-color: var
+color: white;
 
 }
 
@@ -36,12 +37,8 @@ h3{
 }
 
 p{
-    padding-top:  20px;
+    padding: 20px;
+
+    color: white;
 }
 
-.img-responsive{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    
-}
