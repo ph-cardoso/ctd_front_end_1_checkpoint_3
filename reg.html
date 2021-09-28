@@ -25,15 +25,14 @@
         <title>SeriesFlix</title>
     </head>
     <body>
-      <main class="mainreg">
+      <main class="mainreg bg-dark">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-top">
             <div class="container">
-                <a href="#" class="navbar-brand">
-                    <i class="bi bi-film px-2" style="font-size: 1.5em"></i>
-                    SeriesFlix
-                </a>
+              <a href="#" class="navbar-brand">
+                <img style="height: 3.5rem;" src="./img/seriesflix.png" alt="SeriesFlix Logo">
+            </a>
 
                 <button
                     class="navbar-toggler"
@@ -50,10 +49,10 @@
                             <a href="#" class="nav-link">Críticas</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Top 10</a>
+                            <a href="top-10.html" class="nav-link">Top 10</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Lançamentos</a>
+                            <a href="lancamentos.html" class="nav-link">Lançamentos</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Gêneros </a>
@@ -61,6 +60,12 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">Curiosidades</a>
                         </li>
+                        <li class="nav-item">
+                          <a href="reg.html" class="nav-link active">Registre-se</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="login.html" class="nav-link">Login</a>
+                      </li>
                     </ul>
                 </div>
             </div>
@@ -142,7 +147,7 @@
 
 
             <div class="inputendereco" >
-              <label for="inputAddress2">Endereço 2</label>
+              <label for="inputAddress2">Complemento</label>
               <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
             </div>
 
@@ -150,7 +155,7 @@
             <div >
               <div class="inputendereco">
                 <label for="inputCity">Cidade</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" placeholder="Cidade" id="inputCity">
               </div>
 
 
@@ -233,7 +238,7 @@
        <div style="height: 300px"></div>
 
         <!-- Footer -->
-        <footer class="footer py-4 bg-dark text-white-50">
+        <footer class="footer py-4 bg-black text-white-50">
             <div class="container text-center">
                 <medium>Copyright &copy; 2021 SeriesFlix</medium>
             </div>
