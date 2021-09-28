@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2e2d2d;
+} 
+
+h1 {
+    padding: 5px;
+}
+
+#banner {
+    width: 100%;
+    display: block;
+}
+
+.row .card img{
+    width: 100%;
+    height: 100%;
+} 
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #ffc107;
+    color: black;
+    border: #ffc107 solid 2px;
+}
+
+p{ 
+    text-align: justify;
+}
+
+.btn-dark {
+    display: block;
+    text-align: center;
+}

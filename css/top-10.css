@@ -1,0 +1,27 @@
+.transicao:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  transition-property: transform, opacity;
+  transition-duration: 0.3s;
+}
+
+.transicao {
+  opacity: 0.9;
+  transition-property: transform, opacity;
+  transition-duration: 0.3s;
+}
+
+.center-btns {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .primeiro-card {
+    width: 350px !important;
+  }
+}
+
+.header-paragrafo{
+  margin-bottom: 0 !important; 
+}
