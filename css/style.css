@@ -1,0 +1,10 @@
+.parallax-banner {
+  background-image: url("../img/homepage/rick-and-morty-banner.png");
+  height: 100vh;
+
+  /* Parallax Scroll Effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
