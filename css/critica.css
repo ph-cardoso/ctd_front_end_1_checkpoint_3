@@ -1,19 +1,15 @@
 
 .container-fluid{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-      
+   
+    width: 100%;
+          
 }
 
-.jumbotron img{
-    width: 100%;
-} 
+
 
 .row{
 
- 
+    width: 100%;
     background-color: rgb(85, 78, 78);
     
     
@@ -41,4 +37,5 @@ p{
 
     color: white;
 }
+
 
