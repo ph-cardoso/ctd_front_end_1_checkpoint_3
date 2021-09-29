@@ -1,9 +1,6 @@
 .regbutton{
     color: white;
     text-decoration: none;
-    display: flex;
-    
-
 }
 
 a:hover {
@@ -11,21 +8,14 @@ a:hover {
 }
 
 .form-group{
-  
     color: white;
    padding-top : 20px; 
    padding-left: 10px;
    padding-right: 10px;
-   
-   
-   
 }
 
 .form-groupcep{
-
     padding-top : 20px; 
-  
-
 }
 
 
@@ -36,7 +26,6 @@ a:hover {
 
 .inputendereco{
     padding-top: 20px;
-
 }
 .form-check{
     padding-top: 20px;
@@ -46,14 +35,10 @@ a:hover {
 
 
 .loginbox{
-   
     color:white;
-    padding-top: 20px;
+    padding-top: 150px;
     padding-left: 10px;
     padding-right: 10px;
-    
-
-
 }
 .loginbox1{
     padding-bottom: 20px;
@@ -65,17 +50,12 @@ a:hover {
 
 
 .containerregistro{
-
     max-width: auto;
     min-width: auto;
-    
 }
 
 .containerlogin{
-
     max-width: auto;
     min-width: auto;
-    
-
 }
 
