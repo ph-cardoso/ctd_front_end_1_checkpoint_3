@@ -2,6 +2,7 @@
     color: white;
     text-decoration: none;
     display: flex;
+    
 
 }
 
@@ -10,76 +11,71 @@ a:hover {
 }
 
 .form-group{
-    margin-top: 20px;
-    margin-right: 400px;
-    margin-left: 400px;
-    color: white;
   
-}
-
-
-
-#inputPassword5{
-    margin-bottom: 20px;
+    color: white;
+   padding-top : 20px; 
+   padding-left: 10px;
+   padding-right: 10px;
+   
+   
    
 }
 
-.loginbox{
-    margin-top: 20px;
-    margin-right: 400px;
-    margin-left: 400px;
-    color:white
+.form-groupcep{
+
+    padding-top : 20px; 
+  
 
 }
 
-.senharegistro{
 
-    margin-top: 20px ;
-  
-
+.form-group1{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .inputendereco{
-    margin-top: 20px ;
-    margin-bottom: 20px;
-   
-}
-
-.btn {
-
-    margin-top: 20px ;
-    margin-bottom: 20px;
-    
+    padding-top: 20px;
 
 }
-
-
-.custom-radio{
-    margin-bottom: 10PX;
- 
+.form-check{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 
 
 .loginbox{
-
-    margin-top: 150px;
    
+    color:white;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+
+}
+.loginbox1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.loginbox2{
+    padding-bottom: 20px;
 }
 
-.boxregistro{
-    margin-top: 150px;
- 
-}
 
-.senhalogin{
-    margin-top: 20px;
+.containerregistro{
+
+    max-width: auto;
+    min-width: auto;
     
 }
 
-@media (min-width: 992px) {
-    .boxregistro{
+.containerlogin{
 
-        width:auto;
-    }
+    max-width: auto;
+    min-width: auto;
+    
 
 }
+

@@ -24,14 +24,19 @@
         />
         <title>SeriesFlix</title>
     </head>
+
     <body>
-      <main class="mainreg bg-dark">
+      
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-top">
-            <div class="container">
-              <a href="#" class="navbar-brand">
-                <img style="height: 3.5rem;" src="./img/seriesflix.png" alt="SeriesFlix Logo">
+          <div class="container">
+            <a href="../index.html" class="navbar-brand">
+              <img
+                style="height: 3.5rem"
+                src="../img/seriesflix.png"
+                alt="SeriesFlix Logo"
+              />
             </a>
 
                 <button
@@ -46,7 +51,7 @@
                 <div class="collapse navbar-collapse" id="navmenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Críticas</a>
+                            <a href="criticas.html" class="nav-link">Críticas</a>
                         </li>
                         <li class="nav-item">
                             <a href="top-10.html" class="nav-link">Top 10</a>
@@ -58,7 +63,7 @@
                             <a href="#" class="nav-link">Gêneros </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Curiosidades</a>
+                            <a href="curiosidades.html" class="nav-link">Curiosidades</a>
                         </li>
                         <li class="nav-item">
                           <a href="reg.html" class="nav-link active">Registre-se</a>
@@ -73,7 +78,8 @@
 
         <!-- Space between Navbar and Footer -->
 
-
+    <main class="mainreg bg-dark">
+      <section  class="containerregistro  d-flex justify-content-center">
 
         <!-- Place your code HERE... -->
 
@@ -102,14 +108,14 @@
               </div>
 
 
-              <label class="senharegistro"  for="inputPassword5">Senha</label>
+              <label class="form-group"  for="inputPassword5">Senha</label>
                <br>
               <small id="passwordHelpBlock" class="form-text text-muted">
                 Sua senha deve ter entre 8 e 20 caracteres, os quais devem ser letras e números, sem espaços, caracteres especiais ou emojis.
               </small>
               <input type="password" id="inputPassword5" class="form-control" placeholder="Senha" aria-describedby="passwordHelpBlock">
               
-              <label class="senharegistro1"  for="inputPassword5">Repita sua senha </label>
+              <label class="form-group"  for="inputPassword5">Repita sua senha </label>
                <br>
               <input type="password" id="inputPassword5" class="form-control" placeholder="Repita sua senha " aria-describedby="passwordHelpBlock">
 
@@ -118,11 +124,13 @@
 
             <!-- Radio Button de escolha de sexo -->
 
-            <div class="custom-control custom-radio">
+            <div class="form-group">
               <label for="customRadio1">Gênero</label>
 
-              <br>
+              
+            </div>
 
+            <div>
               <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
               <label class="custom-control-label" for="customRadio1">Masculino</label>
             </div>
@@ -194,7 +202,7 @@
               </div>
 
 
-              <div class="inputendereco">
+              <div class="form-groupcep">
                 <label for="inputCEP">CEP</label>
                 <input type="text" class="form-control" placeholder="Insira seu CEP"  id="inputCEP">
               </div>
@@ -204,7 +212,7 @@
 
 
             <div >
-              <div class="form-check">
+              <div class="form-group1">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
                    Aceitar termos de Uso e Condições do serviço
@@ -233,9 +241,10 @@
 
 
         </div>
+        <div style="height: 300px"></div>
+      </section>
+    </main>
 
-
-       <div style="height: 300px"></div>
 
         <!-- Footer -->
         <footer class="footer py-4 bg-black text-white-50">
@@ -251,7 +260,6 @@
             crossorigin="anonymous"
         ></script>
 
-      </main>
 
     </body>
 

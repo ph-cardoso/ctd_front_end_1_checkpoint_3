@@ -36,14 +36,6 @@ git branch
 
 - Esse comando lista todas as branchs criadas no repositório. A selecionada vai estar **destacada**. Caso esteja utilizando o Vscode, também é possível visualizar a branch selecionada no canto esquerdo da barra inferior.
 
-- Execute o seguinte comando para conseguir fazer `pull` a partir da branch main:
-
-``` git
-git branch --set-upstream-to=origin/main NOME_BRANCH
-```
-
-- Em "NOME_BRANCH" substitua pelo nome da sua branch;
-
 ## Alternar entre branchs
 
 - Para alternar entre branchs e selecionar uma diferente, utilize o comando:
@@ -55,8 +47,6 @@ git checkout NOME_BRANCH
 - Substitua "NOME_BRANCH" pelo nome da branch que deseja selecionar.
 
 ## Observações
-
-- O restante dos comandos para fazer add, commits, pushs e pulls é normal. Quando você subir o código para o repositório lembre-se que ele não vai estar na branch `main`. Altere para a sua branch no Github para visualizar o que você subiu.
 
 - Novamente, **não dê push na branch `main`**.
 
