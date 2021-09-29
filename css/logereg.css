@@ -36,10 +36,15 @@ a:hover {
 
 .loginbox{
     color:white;
-    padding-top: 150px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 20px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
+
+
+
+
+
 .loginbox1{
     padding-bottom: 20px;
     padding-top: 20px;

@@ -85,38 +85,57 @@
                     <!-- Place your code HERE... -->
 
                 
-                    <fieldset  class="loginbox">
-                        <form>
-                            <div>
-                                <div>
-                                <label  for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Insira seu Email">
-                                </div>
-
-                            <div class="loginbox1">
-                
-                                <label  for="inputPassword5">Senha</label>
-                                <input type="password" id="inputPassword5" class="form-control" placeholder="Insira sua Senha" aria-describedby="passwordHelpBlock">
-                                
+                    <form class="needs-validation" novalidate>
+                        
+                          <div class="loginbox">
+                            <label for="validationCustom04">E-mail</label>
+                            <input type="email" class="form-control" id="validationCustom04" placeholder="Insira seu e-mail" required>
+                            <div class="invalid-feedback">
+                              Por favor, informe um e-mail válido.
                             </div>
-                
-                        </form>
-
-                        <div >
-                            <div class="loginbox2">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Mantenha-me Conectado
-                            </label>
+                          </div>
+                          <div class="loginbox">
+                            <label for="validationCustom05">Senha</label>
+                            <input type="password" class="form-control" id="validationCustom05" placeholder="Insira sua senha" required>
+                            <div class="invalid-feedback">
+                              Por favor, informe uma senha válida.
                             </div>
+                          </div>
+                        </div>
+                        <div class="loginbox">
+                          <div class="loginbox">
+                            <input class="form-check-input" type="checkbox" value="" >
+                            <label class="form-check-label" >
+                                Lembre-se de mim
+                            </div>
+                        </div>
 
 
-                    <button type="submit" class="btn btn-primary">Entrar</button>
+                        <button class="btn btn-primary"  type="submit">Enviar</button>
+                    </form>
+
                     
-                    
-                
-                    </fieldset>
-
+                      
+                      <script>
+                      // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+                      (function() {
+                        'use strict';
+                        window.addEventListener('load', function() {
+                          // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+                          var forms = document.getElementsByClassName('needs-validation');
+                          // Faz um loop neles e evita o envio
+                          var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                              if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                              }
+                              form.classList.add('was-validated');
+                            }, false);
+                          });
+                        }, false);
+                      })();
+                      </script>
 
         
 
