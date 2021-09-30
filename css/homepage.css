@@ -1,0 +1,44 @@
+/* Banner */
+.parallax-banner {
+  background: url("../img/homepage/dexter.jpg") rgba(0, 0, 0, 0.5);
+  min-height: 75vh;
+
+  /* Parallax Scroll Effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* Hover global dos botões */
+.btn {
+  transition: all 200ms ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo do box das colunas - Section Fique por dentro*/
+.col-box {
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  height: 20rem;
+  background-color: rgb(224, 224, 224);
+  margin: 0 1rem;
+  box-shadow: 3px 5px 12px 1px rgb(49, 49, 49);
+}
+
+/* Estilo da Section da equipe */
+.equipe-container {
+  background-color: rgb(224, 224, 224);
+  border-radius: 2rem;
+}
+
+.img-profile {
+  width: 10rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #FFC107;
+}
