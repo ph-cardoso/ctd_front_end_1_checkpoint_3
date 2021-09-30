@@ -1,10 +1,21 @@
 .parallax-banner {
-  background-image: url("../img/homepage/rick-and-morty-banner.png");
-  height: 100vh;
+  background: url("../img/homepage/dexter.jpg") rgba(0, 0, 0, 0.5);
+  min-height: 75vh;
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.img-profile {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.equipe-container {
+  background-color: rgb(224, 224, 224);
+  border-radius: 2rem;
 }
