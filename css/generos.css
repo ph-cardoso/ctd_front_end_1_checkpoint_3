@@ -1,0 +1,94 @@
+#princ {
+  margin-top: 35rem;
+}
+
+/* .container{}
+
+#banner {
+  background-image: url(../img/netflix-the-crown.jpeg);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  align-items: end;
+  justify-content:end; */
+
+h1 {
+  font-size: 3rem;
+}
+
+#card:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+}
+
+#card {
+  opacity: 0.9;
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+}
+
+.center-btns {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  #banner {
+    align-items: center;
+    color: #ffff;
+    padding: 1rem;
+  }
+}
+
+/* novo */
+
+#diag {
+  border: 0.1rem solid black;
+  display: flex;
+  box-sizing: cover;
+}
+.diagonalHover {
+  position: absolute;
+  width: 66%;
+  height: 38rem;
+  transition: all 0.3s ease-out;
+  background-position: center;
+  background-position-y: bottom;
+}
+.diagonalHover.first,
+.diagonalHover.second {
+  background-image: url(../img/generos/acao.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 38rem;
+}
+.diagonalHover.second {
+  background-image: url(../img/generos/netflix-the-crown.jpeg);
+}
+.diagonalHover.first:hover {
+  width: 75%;
+  z-index: 1;
+}
+.diagonalHover.second:hover {
+  width: 75%;
+  z-index: 1;
+}
+.diagonalHover.first:hover + .second {
+}
+.diagonalHover.first {
+  left: 0;
+  top: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+}
+
+.diagonalHover.second {
+  right: 0;
+  top: 0;
+  -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+}
